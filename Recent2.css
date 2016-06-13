@@ -1,0 +1,42 @@
+.face:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+  #page-wrap {
+     width: 800px;
+     margin: 0 auto;
+}
+
+  outerx{
+width:50%;
+margin-left:25%;
+border:1px solid #000;
+background:#fff url(http://www.crucial-trading.com/images/668/original/bib_boucle_accents_black_E680-rtch.jpg) repeat-y left top;
+}
+
+.innerx{
+background:transparent url(http://www.crucial-trading.com/images/668/original/bib_boucle_accents_black_E680-rtch.jpg) repeat-y right top;
+width:100%;
+padding:1em 0;
+}
+.outerx p{padding:0 20px;margin:0 0 1em 0}
+}
