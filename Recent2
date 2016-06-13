@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <style>
+      /* Remove the navbar's default margin-bottom and rounded borders */ 
+      .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+      }
+
+      /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+      .row.content {height: 450px}
+
+      /* Set gray background color and 100% height */
+      .sidenav {
+        padding-top: 20px;
+        background-color: #f1f1f1;
+        height: 100%;
+      }
+
+      /* Set black background color, white text and some padding */
+      footer {
+        background-color: #555;
+        color: white;
+        padding: 15px;
+      }
+
+      /* On small screens, set height to 'auto' for sidenav and grid */
+      @media screen and (max-width: 767px) {
+        .sidenav {
+          height: auto;
+          padding: 15px;
+        }
+        .row.content {height:auto;} 
+      }
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#">Logo</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid text-cente">    
+      <div class="row content">
+        <div class="col-sm-2 sidenav">
+
+        </div>
+        <div class="col-sm-8 text-left"> 
+          <h1>Welcome</h1>
+          <p>@DropOutInc</p>
+          <hr>
+          <h3></h3>
+          <img src="http://degreesearch.org/blog/wp-content/uploads/2012/06/american-dropouts-1-share-chalk.gif"width="1000"height="500">
+        </div>
+        <div class="col-sm-2 sidenav">
+          <div class="well">
+            <img src="http://www.hercampus.com/sites/default/files/styles/full_width_embed/public/2014/03/24/Drop-Out-of-College_1.jpg?itok=P64ZT6Bv"width="250">
+          </div>
+          <div class="well">
+            <img src="http://cdn.playbuzz.com/cdn/c94d64d1-2c64-4131-8867-d0a8ce4b27d5/698156bf-86c3-43ee-91ac-952a4b0822b2.gif"width="250">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" aria-valuenow="100"
+           aria-valuemin="0" aria-valuemax="100" style="width:100%">
+        100%
+      </div>
+    </div>
+    <footer class="container-fluid text-center">
+      <img src="https://media1.giphy.com/media/l0irpfCOHoDny/200_s.gif"width="500"height="100">
+    </footer>
+ <div id="page-wrap">
+    <!-- all websites HTML here -->
+  </div>
+  </body>
+</html>
